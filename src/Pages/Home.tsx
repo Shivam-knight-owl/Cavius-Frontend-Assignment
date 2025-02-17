@@ -67,7 +67,11 @@ export const Home=()=>{
                                 <PostCard key={post.id} post={post}/>
                             ))
                         ):(
-                            <p className="text-2xl font-bold text-gray-800 text-center">No Posts Found</p>
+                            <div className="col-span-full">
+                                <p className="text-2xl font-bold text-slate-700 text-center">No Posts Found!
+                                 <span role="img" aria-label="sad">😔</span>   
+                                </p>
+                            </div>
                         )}
                     </div>
 

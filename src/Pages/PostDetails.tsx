@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { PostDetailedCard } from "../Components/PostDetailedCard";
+import { SimpleLoader } from "../Components/SimpleLoader";
 
 interface Post{
     userId:number;
@@ -34,7 +35,11 @@ export const PostDetails=()=>{
     })
 
     if(loading){
-        return <div className="container mx-auto p-4">Loading...</div>
+        return(
+            <div className="min-h-screen flex justify-center items-center">
+                <SimpleLoader/>
+            </div>
+        )
     }
 
     return(

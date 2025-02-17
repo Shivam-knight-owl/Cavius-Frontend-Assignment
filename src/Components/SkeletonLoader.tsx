@@ -1,7 +1,7 @@
 
 export const SkeletonLoader = () => {
   return (
-    <div className="p-6 bg-white rounded-2xl shadow-lg border border-slate-600 m-4 flex flex-col h-full animate-pulse mt-15">
+    <div className="p-6 bg-white rounded-2xl shadow-lg border border-slate-600 m-4 flex flex-col h-full animate-pulse">
       <div className="h-6 w-24 bg-gray-300 rounded-md mb-2"></div> 
       <div className="h-5 w-3/4 bg-gray-300 rounded-md mb-2"></div>
       <div className="h-5 w-2/3 bg-gray-200 rounded-md mb-4"></div>

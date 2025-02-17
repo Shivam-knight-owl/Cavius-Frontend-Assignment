@@ -9,7 +9,6 @@ interface Post {
     return (
       <div className="p-8 bg-white/90 backdrop-blur-md rounded-3xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-2 border border-gray-300 m-6 flex flex-col h-full max-w-lg mx-auto">
         
-        {/* Post Heading */}
         <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500 mb-3 text-center">
           Post No. {post.id}
         </h1>
@@ -18,7 +17,6 @@ interface Post {
           By User ID: <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500 font-bold"> {post.userId} </span>
         </h2>
   
-        {/* Card Content */}
         <div className="p-6 bg-gradient-to-br from-gray-100 to-white rounded-2xl shadow-inner border border-gray-200">
           
           <h3 className="text-2xl font-bold text-gray-900 mb-3">
