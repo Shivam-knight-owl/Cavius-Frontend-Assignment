@@ -29,8 +29,8 @@ Follow the steps below to run this project locally:
    ```bash
    git clone https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment.git
    cd Cavius-Frontend-Assignment
-   bash npm install
-   bash npm run dev
+   npm install
+   npm run dev
 4.App will be accessible at http://localhost:3000.
 
 ## Technologies Used:
@@ -42,4 +42,12 @@ Follow the steps below to run this project locally:
 - **JSONPlaceholder:** Free API used to fetch posts and post details.
 
 ##Screenshots:
+Here are some screenshots of the application:
+
+![Home Page](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20203838.png)
+![Dynamic Searching on Home Page](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20203902.png)
+![Pagination](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20203919.png)
+![Responsive Website Pages](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20203950.png)
+![Post Details Page](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20204008.png)
+![Skeleton Loader](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20204055.png)
 
