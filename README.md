@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# Post Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a Post Management App built using **Vite**, **React**, **TypeScript**, **React Router DOM**, and **Tailwind CSS**. The app allows users to view a list of posts, search for posts dynamically based on the title, view paginated results, and see detailed information about individual posts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The data is fetched from **JSONPlaceholder** API.
 
-## Expanding the ESLint configuration
+### Features:
+- **Responsive Design**: The app is fully responsive and works seamlessly on all screen sizes (desktop, tablet, mobile).
+- **Dynamic Searching**: Users can search for posts based on the title using a search bar.
+- **Pagination**: The home page supports pagination to display a limited number of posts at once.
+- **Post Details**: Each post has a dedicated page showing detailed information about the post.
+- **Skeleton Loader**: A skeleton loader is used on the homepage to show a loading animation while the posts are being fetched.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Routes:
+- `/`: The homepage that displays all posts with pagination and a search bar.
+- `/post/:id`: Displays the detailed view of an individual post with its title and body.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation Instructions:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Follow the steps below to run this project locally:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Installation Instructions:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow the steps below to run this project locally:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the repository and install dependency**:
+   ```bash
+   git clone https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment.git
+   cd Cavius-Frontend-Assignment
+   bash npm install
+   bash npm run dev
+4.App will be accessible at http://localhost:3000.
+
+## Technologies Used:
+- **Vite:** Build tool for faster development experience with React.
+- **React:** JavaScript library for building the user interface.
+- **TypeScript:** Superset of JavaScript to add static typing to the project.
+- **React Router DOM:** For routing between different pages.
+- **Tailwind CSS:** Utility-first CSS framework for styling the app.
+- **JSONPlaceholder:** Free API used to fetch posts and post details.
+
+##Screenshots:
+
