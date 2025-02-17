@@ -45,14 +45,19 @@ Follow the steps below to run this project locally:
 Here are some screenshots of the application:
 - **1.Home Page Screenshot:**
 ![Home Page](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20203838.png)
+
 - **2.Dynamic Searching on Home Page:**
 ![Dynamic Searching on Home Page](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20203902.png)
+
 - **3.Pagination:**
 ![Pagination](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20203919.png)
+
 - **4.Responsive Page:**
 ![Responsive Website Pages](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20203950.png)
+
 - **5.Post Details Page:**
 ![Post Details Page](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20204008.png)
+
 - **6.Skeleton Loader:**
 ![Skeleton Loader](https://github.com/Shivam-knight-owl/Cavius-Frontend-Assignment/blob/main/Screenshot%202025-02-17%20204055.png)
 
