@@ -38,7 +38,7 @@ export const Home=()=>{
 
     return(
         <div className="container mx-auto p-4">
-            <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#814bff] to-blue-500 text-center mb-8">
+            <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500 text-center mb-8">
                 All Posts
             </h1>
             
